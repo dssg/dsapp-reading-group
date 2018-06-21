@@ -75,3 +75,39 @@ Link: https://ai.google/research/pubs/pub46555
   * Survey self-assessment
     * "Teams using purely image or audio data did not feel many of the Data tests were applicable" ???
     * How to handle cost (time, data, money, etc.) of acquiring lables? Not addressed at all!
+
+## Meeting notes:
+
+Introduction (Eddie):
+* Paper is follow-up to earlier work
+* Thinking of data as "part of the source code"
+* Allows us to help determine new features in `triage`
+
+Discussion notes:
+* Going through `triage` and assessing if we meet requirements, worth it to implement
+* Some packages already exist: [https://github.com/great-expectations/great\_expectations]
+* Data requirements are ill-defined - creates ambiguity 
+  * When we get data dumps, the data has already undergone unobserved transformations
+  * Organizational problems: ownership of tools, common practices often undocumented
+* Enrichment of data with metadata
+  * How do we define "confidence" in what the data should look like? (i.e. prior confidence)
+* Expanding feature groups
+  * Looking at time aggregations / blocking to better investigate subsets of features
+  * Example: examine smallest 10% of feature importance for all models in a model group
+    * Improve using `audition` / `postmodeling`?
+    * More difficult to gauge impacts of nonlinear models
+  * Feature selection using ML? Should be implemented in `triage`?
+    * Pipelines instead of models
+    * What parts of pipelines are algorithmic and what could be considered preprocessing or postprocessing?
+* How do we change the feature space?
+  * Problem with `triage`: no way of processing lagged data (but Adolfo is working on it)
+  * Information is lost when aggregated - how much, and how do we control?
+* Trading off computational costs vs. ML costs - how to measure?
+* Data ownership is important, and in general people are bad at it!
+
+Takeaways:
+* We should explore feature selection in `triage`
+* We should explore converting model objects into pipeline objects
+* We should explore ETL checks at different places besides only model output 
+* We should explore new ways to integrate partner `domain knowledge` into models
+
