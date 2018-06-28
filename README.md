@@ -3,7 +3,7 @@ Proceedings of the Center for Data Scientists arguing (about) Public Papers
 
 
 # Reading schedule 
-|Date| Paper| Link| Presenter_
+|Date| Paper| Link| Presenter|
 |-----|:---------------------:|-----------:|:---------------------:|
 06/28 | Planning Discussion |`TBD`| All|
 07/05 | TDB |`TBD`| TDB |
