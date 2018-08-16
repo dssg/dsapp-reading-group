@@ -11,8 +11,6 @@ Proceedings of the Center for Data Scientists arguing (about) Public Papers
 07/19 |  *Statistically Controlling for Confounding Constructs Is Harder than You Think* |  [Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152719)  |    Erika   |
 07/26 | *A Generalization Error for Q-Learning* | [Link](http://www.jmlr.org/papers/volume6/murphy05a/murphy05a.pdf)  |  Jeremy  |
 08/02 |Statistics and Causal Inference |[Link](https://www.jstor.org/stable/2289064?seq=1#page_scan_tab_contents) | Iván
-
-
 08/23 | The Tyranny of Data? The Bright and Dark Sides of Data-Driven Decision-Making for Social Good | [Link](https://link.springer.com/chapter/10.1007/978-3-319-54024-5_1) | Erica
 08/30 |  Targeted maximum likelihood estimation for causal inference in observational studies | [Link](https://www.ncbi.nlm.nih.gov/pubmed/27941068) | Iván
 09/06 | Mind the Gap: A Generative Approach to Interpretable Feature Selection and Extraction | [Link](http://papers.nips.cc/paper/5957-mind-the-gap-a-generative-approach-to-interpretable-feature-selection-and-extraction.pdf)  | Eddie
